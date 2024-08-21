@@ -136,17 +136,6 @@ def _read_yaml_cached(filename, size, mtime):
 register_url_converters(app)
 setup_jinja_env(app.jinja_env)
 
-@app.route("/mentorship/")
-def mentorship():
-    return render_template(
-        "mentorship.html",
-    )
-
-@app.route("/sponsorship/")
-def sponsorship():
-    return render_template(
-        "sponsorship.html",
-    )
 
 @app.route("/agb/")
 def agb():
