@@ -1,17 +1,25 @@
 - name: مصعب ابوالحسن
   img: img/team/mussab.jpg
-  role: "Founder, organizer, teacher, mentorship programme"
+  role: "organizer, teacher, mentorship programme"
   links:
   - mail: mailto:baloola-mu@hotmail.com
 - name: علي العبيد
-  img: img/team/dolezall.jpg
-  role: "Organizer, teacher"
+  img: img/team/mussab.jpg
+  role: "منظم, مدرب"
   links:
-  - mail: mailto:lubomir.bucek.ml@gmail.com
-  - linkedin: https://www.linkedin.com/in/lubomir-dolezal/
-- name: Fabian Schindler
-  img: img/team/schindlerf.jpg
-  role: "Organizer, teacher"
+  - mail: mailto:ali.a.obeid@outlook.com
+  - linkedin: https://www.linkedin.com/in/ali-obeid-393b801a9/
+- name: ابوبكر عثمان
+  img: img/team/mussab.jpg
+  role: "منظم, مدرب"
+  links:
+  - mail: mailto:fabian.schindler.strauss@gmail.com
+  - linkedin: https://www.linkedin.com/in/fabian-schindler-311030b9/
+  - twitter: https://twitter.com/__fschindler__
+
+- name: ابوبكر عثمان
+  img: img/team/mussab.jpg
+  role: "منظم, مدرب, مؤسس المركز"
   links:
   - mail: mailto:fabian.schindler.strauss@gmail.com
   - linkedin: https://www.linkedin.com/in/fabian-schindler-311030b9/
