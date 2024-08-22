@@ -4,7 +4,7 @@
 
 {% block intro %}
 
-    <p>Here you can find a list of materials for lectures taught by mentors.
+    <p>هنا يمكنك ان تجد المواد المتعلقة بورش التدريب و الدورات المقدمة من بيت السودان
         <!--span>  List of materials for self-study courses can be found <a href="{{ url_for('courses') }}">in the courses.</a></span-->
     </p>
 
@@ -54,19 +54,19 @@
 {% block list %}
 
     {% if all is none and year is none %}
-        <h1>Current courses</h1>
+        <h1>الدورات الحالية</h1>
         {% if run_data["ongoing"] | length > 0 %}
             {% for run in run_data["ongoing"].values() | sort(attribute='start_date', reverse=True) %}
                 {{ show_run(run) }}
             {% endfor %}
         {% else %}
             <div class="empty-run-list">
-                We do not run any courses at the moment. Stay tuned for announcement of new openings.
+                لا نقوم بتقديم أي دورات في الوقت الحالي. ترقبوا الإعلان عن دورات جديدة
             </div>
         {% endif %}
 
         {% if run_data["recent"] | length > 0 %}
-            <h1>Previous courses</h1>
+            <h1>دورات سابقة</h1>
 
             {{ pagination() }}
             {% for run in run_data["recent"].values() | sort(attribute='start_date', reverse=True) %}

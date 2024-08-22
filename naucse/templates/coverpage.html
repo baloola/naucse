@@ -23,16 +23,16 @@
 
 {% if session.description %}{{ session.description }}{% endif %}
 
-<h2>Materials</h2>
+<h2>المواد</h2>
 {{ material_list(session.materials, filter_type='lesson') }}
 
 {% if 'cheatsheet' in materials_by_type %}
-    <h2>Cheatsheets</h2>
+    <h2>ملخصات</h2>
     {{ material_list(session.materials, filter_type='cheatsheet') }}
 {% endif %}
 
 {% if 'homework' in materials_by_type %}
-    <h2>Homeworks</h2>
+    <h2>تمارين</h2>
     {{ material_list(session.materials, filter_type='homework') }}
 {% endif %}
 

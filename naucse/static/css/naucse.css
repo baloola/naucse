@@ -41,7 +41,7 @@ h2:first-child {
 .header {
     font-family: sans-serif;
     font-size: 18px;
-    background-color: #ee274d;
+    background-color: #337e39;
     padding: 5px 20px 15px 20px;
 }
 
@@ -87,7 +87,7 @@ a {
 }
 
 a:hover {
-    color: #ee274d;
+    color: #337e39;
     text-decoration: none;
 }
 
@@ -279,48 +279,48 @@ body > footer {
     padding-top: 10px;
     margin-top: 20px;
   }
-  
+
   body > footer ul {
     display: block;
     float: right;
     padding: 0.5em;
   }
-  
+
   body > footer li {
     list-style: none;
     display: inline;
     padding: 0 5px;
   }
-  
+
   body > footer img {
     width: 40px;
     opacity: 0.5;
   }
-  
+
   body > footer img:hover {
     opacity: 1;
   }
-  
+
   body > footer .clear {
     clear: both;
   }
-  
+
   body > footer .global-pyladies a,
   body > footer .about-p a,
   body > footer .news-p a {
     color: #8e8c8d;
   }
-  
+
   body > footer .global-pyladies {
     margin-top: 15px;
     color: #aeacad;
     float: left;
   }
-  
+
   body > footer .global-pyladies a {
     color: white;
   }
-  
+
   body > footer .global-pyladies a:hover {
     text-decoration: underline;
     color: white;
