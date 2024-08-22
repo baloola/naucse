@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>
 
-                {% block title %}PyLadies Vienna Python course{% endblock title %}
+                {% block title %}مركز التدريب بيت السودان{% endblock title %}
 
         </title>
 
@@ -28,11 +28,10 @@
             {% endblock %}
         </style>
     </head>
-who.png
     <body>
         <nav class="header">
             <ul class="container menu">
-                <li style="height: 3em;"> </li><img href="{{url_for('static', filename='img/who.png')}}" />
+                <li style="height: 3em;"> </li><img src="{{url_for('static', filename='img/who.png')}}" />
                 <li><a href="/" class="logo"><h1>بيت السودان فيينا</h1></a></li>
 
                 <li><a href="{{ url_for('runs') }}" class="menu-link"><h2>الدورات</h2></a></li>
