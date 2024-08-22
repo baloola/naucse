@@ -30,7 +30,7 @@ $headingMargin: 0 0 1ex 0;
 $mainFont: 'Oxygen', sans-serif;
 $mainFontSize: 50px;
 
-$pink = #FF6464;
+$pink = #337e39;
 
 // Override theme settings (see ../template/settings.scss)
 $mainColor: #333;
@@ -78,7 +78,7 @@ $heading1TextShadow: 0 0 0 #000;
 }
 
 .reveal a:not(.image):hover {
-    color:  #FF6464;
+    color:  #337e39;
 }
 
 .reveal pre {
