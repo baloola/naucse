@@ -1,4 +1,4 @@
-- name: ابوبكر عثمان
+- name: عثمان قشاطة
   img: img/team/mussab.jpg
   role: "منظم, مدرب, مؤسس المركز"
   links:
@@ -13,12 +13,10 @@
   - mail: mailto:ali.a.obeid@outlook.com
   - linkedin: https://www.linkedin.com/in/ali-obeid-393b801a9/
 - name: ابوبكر عثمان
-  img: img/team/mussab.jpg
+  img: img/team/abubakr.jpeg
   role: "منظم, مدرب"
   links:
-  - mail: mailto:fabian.schindler.strauss@gmail.com
-  - linkedin: https://www.linkedin.com/in/fabian-schindler-311030b9/
-  - twitter: https://twitter.com/__fschindler__
+  - mail: mailto:abobakrosman01@outlook.com
 
 - name: مصعب ابوالحسن
   img: img/team/mussab.jpg
