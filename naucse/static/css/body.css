@@ -266,3 +266,9 @@ div.highlight .gp {
 blockquote {
     margin-left: 2em;
 }
+
+.admonition{
+    unicode-bidi: bidi-override !important;
+    direction: rtl !important;
+    text-align: right;
+}
