@@ -80,6 +80,9 @@ a h2:hover {
 .page {
     padding: 20px 20px 0 20px;
     margin-bottom: 0 auto 1rem auto;
+    unicode-bidi: bidi-override !important;
+    direction: rtl !important;
+    text-align: right;
 }
 
 a {
