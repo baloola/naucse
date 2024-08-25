@@ -79,3 +79,8 @@
 .-Color-Red{ color: #c00; }
 .-Color-BoldYellow{ color: #c4A000; font-weight: bold; }
 .-Color-Yellow{ color: #c4A000; }
+
+.highlight{
+    direction: ltr !important;
+    text-align: left;
+}
