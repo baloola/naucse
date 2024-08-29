@@ -7,21 +7,48 @@
 {% block content %}
 
 <section class="jumbotron jumbotron-fluid motivation"
-        style="unicode-bidi: bidi-override !important;direction: rtl !important;text-align:right; background-image: url({{url_for('static', filename='sudanhousecv.jpeg')}})">
-      <div class="container">
-        <h1 class="display-3">مركز التدريب ببيت السودان فيينا</h1>
-        <p class="lead">
-          مبادرة لتقديم ورش عمل و دورات تدريبة مجانية لمنسوبي الجالية السودانية بالنمسا
-        </p>
-        <p class="lead">
-          الرجاء اضافة مقدمة
-        </p>
+  style="unicode-bidi: bidi-override !important;direction: rtl !important;text-align:right; background-image: url({{url_for('static', filename='sudanhousecv.jpeg')}})">
+  <div class="container">
+    <h1 class="display-3">مركز التدريب ببيت السودان فيينا</h1>
+    <p class="lead">
+      مبادرة لتقديم ورش عمل و دورات تدريبة مجانية لمنسوبي الجالية السودانية بالنمسا
+    </p>
+
+  </div>
+</section>
+
+<section id="news" class="container content-section " style="margin-top: 30px;">
+  <div class="container">
+    <div class="row">
+      <div class="news-width">
+        <div class="news-content">
+          <p>
+            يسرّ بيت السودان في فيينا  أن يطلق مجموعة من الدورات وورش العمل المجانية المخصصة للسودانيين المقيمين في
+            فيينا. تهدف هذه المبادرة إلى مساعدة الأفراد على تعزيز معارفهم ومهاراتهم، والارتقاء بمستواهم ليواكب متطلبات
+            سوق العمل والحياة اليومية في النمسا.
+          </p>
+          <h4 class="news-title">الهدف</h4>
+          <p>
+            تهدف هذه الدورات إلى تزويد السودانيين بالمعرفة والمهارات اللازمة للنجاح في النمسا. ستغطي الدورات مواضيع
+            متنوعة مثل كتابة السيرة الذاتية، إجراءات الحصول على رخصة القيادة، البرمجة، والمهارات الأساسية في الحاسوب مثل
+            مايكروسوفت أوفيس وغيرها.
+          </p>
+          <h4 class="news-title">الرسالة</h4>
+          <p>
+            نؤمن بأن التعليم والتطوير الشخصي هما مفتاح النجاح والاندماج في المجتمع. من خلال هذه الدورات، نسعى إلى تمكين
+            السودانيين في فيينا وتزويدهم بالأدوات اللازمة لتحقيق أهدافهم المهنية والشخصية.
+          </p>
+          <h4 class="news-title">الدعوة</h4>
+          <p>
+            نرحب بجميع السودانيين في فيينا للمشاركة في هذه الدورات المجانية. لا تترددوا في التسجيل والانضمام إلى مجتمعنا
+            النشط والمفيد.
+          </p>
+        </div>
       </div>
-    </section>
-
-
+    </div>
+</section>
 <section id="org-team" class="container">
-  <h2 class="course-city-heading">منظمي دورات التدريب</h2>
+  <h2 class="course-city-heading">منظمو دورات التدريب</h2>
   <div class="team ">
     {% for member in team %}
     <div class="person">
