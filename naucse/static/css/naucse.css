@@ -41,7 +41,7 @@ h2:first-child {
 .header {
     font-family: sans-serif;
     font-size: 18px;
-    background-color: #337e39;
+    background-color: white;
     padding: 5px 20px 15px 20px;
 }
 
@@ -54,17 +54,18 @@ h2:first-child {
 .menu li a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #337e39;
 }
 
 .logo h1 {
+    font-weight: bold;
     float: left;
-    font-size: 24px;
+    font-size: x-large;
     margin-top: 32px;
 }
 
 .menu-link h2 {
-    font-size: 16px;
+    font-size: x-large;
     font-weight: bold;
     float: right;
     margin-top: 30px;

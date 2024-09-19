@@ -2,7 +2,7 @@ nav.header {
     background-color: white;
 }
 nav.header * {
-    color: #337e39;
+    color: white;
 }
 
 .motivation {
@@ -20,7 +20,7 @@ nav.header * {
 }
 .motivation .lead {
     font-weight: bold;
-    color: #337e39;
+    color: white;
 }
 
 .calls-to-action {
