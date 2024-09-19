@@ -33,7 +33,7 @@ ALLOWED_ELEMENTS = {
     'big', 'blockquote', 'code', 'font', 'i', 'tt', 'kbd', 'u', 'var', 'small', 'em', 'strong', 'sub',
 
     # formatting:
-    'br', 'div', 'hr', 'p', 'pre', 'span',
+    'br', 'div', 'hr', 'p', 'pre', 'span', 'iframe',
 
     # lists:
     'dd', 'dl', 'dt', 'li', 'ul', 'ol',
