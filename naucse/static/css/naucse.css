@@ -41,7 +41,7 @@ h2:first-child {
 .header {
     font-family: sans-serif;
     font-size: 18px;
-    background-color: white;
+    background-color: #337e39;
     padding: 5px 20px 15px 20px;
 }
 
@@ -54,7 +54,7 @@ h2:first-child {
 .menu li a {
     display: block;
     text-decoration: none;
-    color: #337e39;
+    color: white;
 }
 
 .logo h1 {
