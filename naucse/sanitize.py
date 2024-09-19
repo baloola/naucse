@@ -27,13 +27,13 @@ class CSSSyntaxError(ValidationError):
 
 ALLOWED_ELEMENTS = {
     # functional:
-    'a', 'abbr', 'audio', 'img', 'source',
+    'a', 'abbr', 'audio', 'img', 'source', 'iframe',
 
     # styling:
     'big', 'blockquote', 'code', 'font', 'i', 'tt', 'kbd', 'u', 'var', 'small', 'em', 'strong', 'sub',
 
     # formatting:
-    'br', 'div', 'hr', 'p', 'pre', 'span', 'iframe',
+    'br', 'div', 'hr', 'p', 'pre', 'span',
 
     # lists:
     'dd', 'dl', 'dt', 'li', 'ul', 'ol',
