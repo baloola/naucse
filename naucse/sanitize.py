@@ -69,6 +69,7 @@ PER_TAG_ATTRIBUTES = {
     'audio': {'controls'},
     'source': {'src', 'type'},
     'table': {'border'},
+    'iframe':{'src','height', 'width', 'allow'},
     'td': {'rowspan', 'colspan', 'valign', 'halign'},
     'th': {'rowspan', 'colspan', 'valign', 'halign'},
 }
