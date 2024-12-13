@@ -1,8 +1,16 @@
 - name: عثمان الطيب قشاطة
   img: img/team/osman.jpg
-  role: "منظم, مدرب, مؤسس المركز"
+  role: "منظم, مؤسس المركز"
   links:
   - mail: mailto:gashata77@yahoo.com
+
+- name: عوض عزمي
+  img: img/team/awad.jpg
+  role: "منظم, مدرب, مؤسس المركز"
+  links:
+  - mail: mailto:awad.abdo31@gmail.com
+  - linkedin: https://www.linkedin.com/in/awad-a-364118113/
+  - twitter: https://x.com/AAbdo42591047?t=vHNOiauR5CFjx_Dt9rvjOA
 
 - name: علي أحمد
   img: img/team/ali.png
