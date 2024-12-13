@@ -199,7 +199,7 @@ def runs(year=None, all=None):
                 **g.model.run_years.get(today.year - 1, {})}
         ongoing = {slug: run for slug, run in runs.items()
                    if run.end_date >= today}
-        cutoff = today - datetime.timedelta(days=30*31)
+        cutoff = today - datetime.timedelta(days=4*31)
         recent = {slug: run for slug, run in runs.items()
                   if today > run.end_date > cutoff}
         run_data = {"ongoing": ongoing, "recent": recent}
