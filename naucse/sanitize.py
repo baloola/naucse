@@ -57,6 +57,7 @@ ALLOWED_ATTRIBUTES = {
     'id',   # XXX: validate id's
     'aria-hidden',
     'title',
+    'dir',
 }
 PER_TAG_ATTRIBUTES = {
     'a': {'href'},
@@ -72,6 +73,7 @@ PER_TAG_ATTRIBUTES = {
     'iframe':{'src','height', 'width', 'allow'},
     'td': {'rowspan', 'colspan', 'valign', 'halign'},
     'th': {'rowspan', 'colspan', 'valign', 'halign'},
+    'pre':{'dir'},
 }
 
 def convert_link(attr_name, value, *, naucse_urls=None):
