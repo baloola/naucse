@@ -50,6 +50,8 @@ ALLOWED_ELEMENTS = {
     # A special check is applied in :meth:`handle_data` method
     # (only ``.dataframe`` styles allowed, generated from notebook converter)
     'style',
+    # translation side effects
+    'python'
 }
 
 ALLOWED_ATTRIBUTES = {
